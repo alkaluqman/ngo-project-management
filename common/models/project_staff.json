@@ -1,0 +1,22 @@
+{
+  "name": "project_staff",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "project_id": {
+      "type": "number",
+      "required": true
+    },
+    "staff_id": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

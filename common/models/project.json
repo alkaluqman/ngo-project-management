@@ -1,0 +1,37 @@
+{
+  "name": "project",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "project_name": {
+      "type": "string",
+      "required": true
+    },
+    "project_sector_id": {
+      "type": "number",
+      "required": true
+    },
+    "inventory_id": {
+      "type": "number",
+      "required": true
+    },
+    "teamlead_id": {
+      "type": "number",
+      "required": true
+    },
+    "project_start_date": {
+      "type": "date",
+      "required": true
+    },
+    "project_end_date": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

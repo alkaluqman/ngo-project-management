@@ -1,0 +1,79 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "staff": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "volunteer": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "project_staff": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "project_sector": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "project_instance": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "project": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "items_inventory": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "items": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "inventory": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "instance": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "funds": {
+    "dataSource": "mysqlDS",
+    "public": true
+  }
+}

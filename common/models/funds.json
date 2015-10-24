@@ -1,0 +1,23 @@
+{
+  "name": "funds",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "project_id": {
+      "type": "number"
+    },
+    "funds_allocated": {
+      "type": "number"
+    },
+    "funds_used": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

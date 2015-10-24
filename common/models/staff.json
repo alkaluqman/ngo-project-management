@@ -1,0 +1,35 @@
+{
+  "name": "staff",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "staff_name": {
+      "type": "string",
+      "required": true
+    },
+    "staff_mobile": {
+      "type": "number",
+      "required": true
+    },
+    "staff_email": {
+      "type": "string"
+    },
+    "staff_category": {
+      "type": "string"
+    },
+    "staff_address": {
+      "type": "string"
+    },
+    "staff_join_date": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

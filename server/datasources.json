@@ -1,0 +1,13 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysqlDS": {
+    "database": "ngoprojectmgmt",
+    "password": "root",
+    "name": "mysqlDS",
+    "connector": "mysql",
+    "user": "root"
+  }
+}

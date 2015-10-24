@@ -1,0 +1,45 @@
+{
+  "name": "volunteer",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "volunteer_name": {
+      "type": "string",
+      "required": true
+    },
+    "volunteer_address": {
+      "type": "string",
+      "required": true
+    },
+    "volunteer_gender": {
+      "type": "string"
+    },
+    "volunteer_nationality": {
+      "type": "string"
+    },
+    "volunteer_age": {
+      "type": "number"
+    },
+    "volunteer_phone": {
+      "type": "number"
+    },
+    "volunteer_email": {
+      "type": "string"
+    },
+    "volunteer_sector": {
+      "type": "string",
+      "required": true
+    },
+   "volunteer_instance_id": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

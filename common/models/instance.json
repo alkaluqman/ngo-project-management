@@ -1,0 +1,26 @@
+{
+  "name": "instance",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "instance_name": {
+      "type": "string",
+      "required": true
+    },
+    "instance_address": {
+      "type": "string",
+      "required": true
+    },
+    "location_name": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

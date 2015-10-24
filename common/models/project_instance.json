@@ -1,0 +1,22 @@
+{
+  "name": "project_instance",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "project_id": {
+      "type": "number",
+      "required": true
+    },
+    "instance_id": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

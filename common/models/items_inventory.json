@@ -1,0 +1,30 @@
+{
+  "name": "items_inventory",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "items_id": {
+      "type": "number",
+      "required": true
+    },
+    "inventory_id": {
+      "type": "number",
+      "required": true
+    },
+    "items_total_number": {
+      "type": "number",
+      "required": true
+    },
+   "items_number_used": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
